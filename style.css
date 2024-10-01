@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: tomato hsl(4, 100%, 67%);
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Submit {
+  color: white;
+  background-color: rgb(5, 12, 71);
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 16px 100px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input {
+  margin-right: auto;
+  margin-left: auto;
+  align-self: center;
+  padding: 16px 115px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 2px solid;
+}
+
+.container {
+  width: 500px;
+  margin-bottom: 0;
+}
+
+.container-1 {
+  width: 400px;
+  margin: 0 auto;
+  padding-right: 500px;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 790;
+  margin-bottom: 5px;
+}
+
+.main-image {
+  margin-top: 1px;
+}
+
+.container-2 {
+  background-color: azure;
+  padding: 15px 24px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+  height: 420px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.dismiss-btn {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 16px 115px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.icon-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.img {
+  width: 80px;
+}
+
+.Submit:hover,
+.Submit:active {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.dismiss-btn:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
